@@ -1,0 +1,3 @@
+My Second Project for the Odin Project.  I will be creating a landing page utilizing the combined knowledge I have learned from HTML, CSS, and FlexBox.
+
+Once I have completed this project I will have demostrated that I was able to retain the information learned from the lessons, properly utilzing syntax that I picked up, and can solve problems and work around bugs by researching on Google and utilizing outside resources.
