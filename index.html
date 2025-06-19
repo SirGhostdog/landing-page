@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -9,33 +12,40 @@
 <body>
     <div class="head" id="top">
         <header>Header Logo</header> 
-            <ul>
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
-            </ul>
+        <ul>
+            <li>header link one</li>
+            <li>header link two</li>
+            <li>header link three</li>
+        </ul>
     </div>        
-    <div class="head" id="hero">
-        <div>
-            <div id="bighero"> This website is awesome</div>
+    <div class="head">
+        <div class="hero">
+            <div id="bighero">This website is awesome</div>
             <div id="lilhero">This website has some subtext that goes here under the main title.  It's a smaller font and the color is lower in contrast.</div>
             <a><button>Sign Up</button></a>
         </div>
-        <div>
-            This is a placeholder for an image
-        </div>
+        <img class='hello' src='./images/hello.jpg' alt='This is a placeholder for an image'>
     </div>
     <div class="info">
         <div id="infohead">Some random information</div>
-
-        <img alt="first picture">
-        <div>this is some subtext under an illustration or image</div>
-        <img alt="second picture">
-        <div>this is some subtext under an illustration or image</div>
-        <img alt="third picture">
-        <div>this is some subtext under an illustration or image</div>
-        <img alt="fourth picture">
-        <div>this is some subtext under an illustration or image</div>
+        <div id='images'>
+            <div id="cards">
+                <img src='./images/crashers.jpg' alt="first picture">
+                <div>this is some subtext under an illustration or image</div>
+            </div>
+            <div id="cards">
+                <img src='./images/stuff.jpg' alt="second picture">
+                <div>this is some subtext under an illustration or image</div>
+            </div>
+            <div id="cards">
+                <img src='./images/pills.jpg' alt="third picture">
+                <div>this is some subtext under an illustration or image</div>
+            </div>
+            <div id="cards">
+                <img src='./images/bike.jpg' alt="fourth picture">
+                <div>this is some subtext under an illustration or image</div>
+            </div>
+        </div>
     </div>
     <div class="quote">
         <div id='quotetext'>This is an inspiring quote, or testimonial from a customer.  Maybe it's just filling up space, or maybe people will actually read it.  Who knows?  All I know is that it looks nice.</div>
