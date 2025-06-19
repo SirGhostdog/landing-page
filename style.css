@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+    color: #e5e7eb;
+    padding-inline-start: 0;
+}
+
+header{
+    font-size: 24px;
+    color: #F9faf8;
+}
+
+.head{
+    background-color: #1F2937;
+}
+
+#bighero{
+    font-size: 48px;
+    color: #F9faf8;
+    font-weight: 900;
+}
+
+#lilhero{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.quote{
+    background-color: #e5e7eb;
+
+}
+
+#quotetext{
+    font-size: 36px;
+    font-style:italic;
+    color:#1F2937
+}
+
+button,
+.action{
+    background-color: #3882f6;
+}
+
+#infohead{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
