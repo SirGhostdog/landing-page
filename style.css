@@ -47,7 +47,6 @@ button:hover{
 
 .head{
     display: flex;
-    flex:1;
     background-color: #1F2937;
 }
 
@@ -114,27 +113,27 @@ button:hover{
 
 .quote{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
+    padding: 60px;
+}
 
-    border: red solid;
+#quotebox{
+    max-width: 50%;
 }
 
 .quotetext{
-    max-width: 50%;
-    padding-top: 80px;
     font-size: 36px;
     font-style:italic;
     color:#1F2937;
-
-    border: red solid;
 }
 
 #sign{
+    display: flex;
+    justify-content: end;
     font-weight: 800;
     font-size: 20px;
-    border: red solid;
 }
 
 button,
@@ -156,6 +155,10 @@ button,
     font-weight: 700;
 }
 
+#signup{
+    border: white solid 2px;
+}
+
 #infohead{
     font-size: 36px;
     color: #1f2937;
@@ -164,5 +167,8 @@ button,
 
 footer{
     display: flex;
-    flex:1;
+    justify-content: center;
+    align-items: center;
+    color: #F9faf8;
+    padding: 16px;
 }
